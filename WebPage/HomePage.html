@@ -20,5 +20,60 @@
             </div>
         </div>
     </header>
+ <!--UC-2 -->
+     <div class="main-content">
+        <div class="header-content">
+          <div class="emp-detail-text">
+            Employee Details <div class="emp-count"> </div>
+           </div>
+           <a href="C:\Users\Aanchal Thakur\Desktop\EmployeePayrollApp\WebPage.html" class="add-button">
+             <img src="../Assets/plus.jpg" width="20px" height="20" alt=""> Add user</a>
+         </div>  <!--header-content -->
+     </div> 
+   
+    <!--UC-3-->
+    <div class="table-main">
+        <table class="table" id="display">
+            <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Department</th>
+                <th>Salary</th>
+                <th>start Date</th>
+                <th>Actions</th>
+            </tr>
+            <tr>
+                <td><img src="../Assets/homepage4.png" class="profile" width="30px" alt=""></td>
+                <td>Aanchal Thakur</td>
+                <td>Female</td>
+                <td>
+                    <div class="dept-label">Engineer</div>
+                    <div class="dept-label">HR</div>
+                    <div class="dept-label">Others</div>
+                </td>
+                <td>500000</td>
+                <td>12 Dec 2019</td>
+                <td>
+                    <img id="1" onclick="remove(this)" alt="delete" width="30px" src="../Assets/edit.png">
+                    <img id="1" onclick="update(this)" alt="edit" width="30px" src="../Assets/delete.png">
+                </td>
+            </tr>
+            <tr>
+                <td><img src="../Assets/homepage2.png" class="profile" width="30px" alt=""></td>
+                <td>Payal Thakur</td>
+                <td>Female</td>
+                <td>
+                    <div class="dept-label">Engineer</div>
+                    <div class="dept-label">HR</div>
+                </td>
+                <td>800000</td>
+                <td>14 Oct 2019</td>
+                <td>
+                    <img id="1" onclick="remove(this)" alt="delete" width="30px" src="../Assets/edit.png">
+                    <img id="1" onclick="update(this)" alt="edit" width="30px" src="../Assets/delete.png">
+                </td>
+            </tr>
+        </table>
     </body>
 </html>
