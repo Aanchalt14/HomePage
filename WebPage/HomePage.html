@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
     <title>Home Page</title>
     <meta charset="UTF-8">
@@ -8,74 +7,116 @@
     <link rel="stylesheet" href="../CSS/HomePage.css">
 </head>
 <!---UC1:--->
-
 <body>
-    <header class="header-content header">
-        <div class="logo-content">
-            <img src="C:\Users\Aanchal Thakur\Desktop\HomePage\Assets\homepage1.png" alt="logo">
-            <div>
-
-                <span class="emp-text">EMPLOYEE</span><br>
-                <span class="emp-text emp-payroll">PAYROLL</span>
-            </div>
-        </div>
-    </header>
- <!--UC-2 -->
-     <div class="main-content">
-        <div class="header-content">
-          <div class="emp-detail-text">
-            Employee Details <div class="emp-count"> </div>
-           </div>
-           <a href="C:\Users\Aanchal Thakur\Desktop\EmployeePayrollApp\WebPage.html" class="add-button">
-             <img src="../Assets/plus.jpg" width="20px" height="20" alt=""> Add user</a>
-         </div>  <!--header-content -->
-     </div> 
-   
-    <!--UC-3-->
-    <div class="table-main">
-        <table class="table" id="display">
-            <tr>
-                <th></th>
-                <th>Name</th>
-                <th>Gender</th>
-                <th>Department</th>
-                <th>Salary</th>
-                <th>start Date</th>
-                <th>Actions</th>
-            </tr>
-            <tr>
-                <td><img src="../Assets/homepage4.png" class="profile" width="30px" alt=""></td>
-                <td>Aanchal Thakur</td>
-                <td>Female</td>
-                <td>
-                    <div class="dept-label">Engineer</div>
-                    <div class="dept-label">HR</div>
-                    <div class="dept-label">Others</div>
-                </td>
-                <td>500000</td>
-                <td>12 Dec 2019</td>
-                <td>
-                    <img id="1" onclick="remove(this)" alt="delete" width="30px" src="../Assets/delete.png">
-                    <img id="1" onclick="update(this)" alt="edit" width="30px" src="../Assets/edit.png">
-                </td>
-            </tr>
-            <tr>
-                <td><img src="../Assets/homepage2.png" class="profile" width="30px" alt=""></td>
-                <td>Payal Thakur</td>
-                <td>Female</td>
-                <td>
-                    <div class="dept-label">Engineer</div>
-                    <div class="dept-label">HR</div>
-                </td>
-                <td>800000</td>
-                <td>14 Oct 2019</td>
-                <td>
-                    <img id="1" onclick="remove(this)" alt="delete" width="30px" src="../Assets/delete.png">
-                    <img id="1" onclick="update(this)" alt="edit" width="30px" src="../Assets/edit.png">
-                </td>
-            </tr>
-        </table>
-      <!-- UC-4 -->
-      <script src="../Javascript/HomePage.js"></script>
-    </body>
+   <header class="header-content header">
+      <div class="logo-content">
+         <img src="C:\Users\Aanchal Thakur\Desktop\HomePage\Assets\homepage1.png" alt="logo">
+         <div>
+            <span class="emp-text">EMPLOYEE</span><br>
+            <span class="emp-text emp-payroll">PAYROLL</span>
+         </div>
+      </div>
+   </header>
+   <!--UC-2 -->
+   <div class="main-content">
+      <div class="header-content">
+         <div class="emp-detail-text">
+             Employee Details <div class="emp-count"> </div>
+         </div>
+         <a href="C:\Users\Aanchal Thakur\Desktop\EmployeePayrollApp\WebPage.html" class="add-button">
+         <img src="../Assets/plus.jpg" width="20px" height="20" alt=""> Add user</a>
+      </div>  <!--header-content -->
+   </div> 
+   <div class="table-main">
+     <table class="table" id="display">
+         <!-- UC-3 --> 
+       <tr>
+          <th>Profile</th>
+          <th>Name</th>
+          <th>Gender</th>
+          <th>Department</th>
+          <th>Salary</th>
+          <th>start Date</th>
+          <th>Actions</th>
+       </tr>
+       <tr>
+          <td><img src="../Assets/homepage4.png" class="profile" width="30px" alt=""></td>
+          <td>Aanchal Thakur</td>
+          <td>Female</td>
+          <td><div class="dept-label">Engineer</div>
+          <div class="dept-label">HR</div>
+            
+                   </td>
+          <td>500000</td>
+          <td>12 Dec 2019</td>
+          <td>
+           <img onclick="remove(this)" src="../Assets/delete.png" width="25px" alt="delete">
+           <img id="1" onclick="update(this)" alt="edit" width="25px" src="../Assets/edit.png">
+          </td>
+        </tr>
+        <tr>
+          <td><img src="../Assets/homepage2.png" class="profile" width="30px" alt=""></td>
+          <td>Payal Thakur</td>
+          <td>Female</td>
+          <td>
+             <div class="dept-label">Engineer</div>
+             <div class="dept-label">HR</div>
+          </td>
+          <td>800000</td>
+          <td>14 Oct 2019</td>
+          <td>
+             <img id="1" onclick="remove(this)" alt="delete" width="25px" src="../Assets/delete.png">
+             <img id="1" onclick="update(this)" alt="edit" width="25px" src="../Assets/edit.png">
+          </td>
+       </tr>
+       <tr>
+         <td><img src="../Assets/homepage12.jpg" class="profile" width="33px" alt=""></td>
+         <td>Anuradha Rathor</td>
+         <td>Female</td>
+         <td>
+            <div class="dept-label">Engineer</div>
+            <div class="dept-label">HR</div>
+         </td>
+         <td>680000</td>
+         <td>26 Nov 2019</td>
+         <td>
+            <img id="1" onclick="remove(this)" alt="delete" width="25px" src="../Assets/delete.png">
+            <img id="1" onclick="update(this)" alt="edit" width="25px" src="../Assets/edit.png">
+         </td>
+      </tr>
+      <tr>
+         <td><img src="../Assets/homepage3.png" class="profile" width="30px" alt=""></td>
+         <td>Rajendra Singh</td>
+         <td>Male</td>
+         <td>
+            <div class="dept-label">Engineer</div>
+            <div class="dept-label">HR</div>
+         </td>
+         <td>750000</td>
+         <td>29 Jul 2019</td>
+         <td>
+            <img id="1" onclick="remove(this)" alt="delete" width="25px" src="../Assets/delete.png">
+            <img id="1" onclick="update(this)" alt="edit" width="25px" src="../Assets/edit.png">
+         </td>
+      </tr>
+      <tr>
+         <td><img src="../Assets/homepage5.png" class="profile" width="30px" alt=""></td>
+         <td>Yash Raj Singh</td>
+         <td>Male</td>
+         <td>
+            <div class="dept-label">Finance</div>
+            <div class="dept-label">HR</div>
+         </td>
+         <td>890000</td>
+         <td>09 Jan 2019</td>
+         <td>
+            <img id="1" onclick="remove(this)" alt="delete" width="25px" src="../Assets/delete.png">
+            <img id="1" onclick="update(this)" alt="edit" width="25px" src="../Assets/edit.png">
+         </td>
+      </tr>
+      </table> 
+   </div> 
+   <!-- UC-4 -->
+   <script src="../Javascript/HomePage.js"></script>
+</body>
 </html>
